@@ -1,0 +1,11 @@
+from abc import ABC,abstractmethod
+
+class base(ABC):
+    @abstractmethod
+    def addition (self,No1,No2):
+        pass
+
+class dervied(base):
+    pass
+
+dobj = dervied()        #error
